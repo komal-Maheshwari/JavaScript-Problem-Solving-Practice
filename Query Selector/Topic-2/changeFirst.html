@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change First</title>
+</head>
+<body>
+    <h3>My First Heading.</h3>
+    <h3>My Second Heading</h3>
+    <button onclick="headingColor()">Try it</button>
+    <script>
+    function headingColor() {
+      var x = document.querySelectorAll("h3");
+      x[0].style.backgroundColor = "red";
+    }
+    </script>
+</body>
+</html>
