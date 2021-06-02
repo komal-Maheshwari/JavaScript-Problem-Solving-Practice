@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Name</title>
+</head>
+<body>
+    <button value="function1" Onclick=myfunc1()>Checking</button>
+    <script>
+        let var3 = "mno";
+        function myfunc1(){
+            let var1 = "xyz";
+            var var2 = "lmn";
+            myfunc2();
+        }
+        function myfunc2(){
+            //throws an exception of undefined.
+            // console.log("var1: " +var1);
+           var2= "abc";
+           console.log("var2: "+var2);
+           console.log("var3: "+var3);
+        }
+    </script>
+</body>
+</html>
