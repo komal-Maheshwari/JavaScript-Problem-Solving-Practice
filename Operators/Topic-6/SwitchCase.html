@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwitchCase</title>
+</head>
+
+<body>
+    <script>
+        var grade = (prompt("Enter your grade"));
+
+        switch (Math.floor(grade / 10)) {
+            case 10:
+                if (grade >= 85)
+                    document.write(+grade + " A+"); break;
+
+            case 9:
+                if ((grade > 80) && (grade < 85))
+                    document.write(+grade + " A"); break;
+
+            case 8: if ((grade > 75 && grade <= 80))
+                document.write(+grade + " A-"); break;
+
+            case 7: if ((grade > 70) && (grade <= 75))
+                document.write(+grade + " B+"); break;
+
+            case 6: if ((grade > 65) && (grade <= 70))
+                document.write(+grade + " B-"); break;
+
+            case 5: if ((grade > 60) && (grade <= 65))
+                document.write(+grade + " C+"); break;
+
+            case 4: if ((grade > 55) && (grade <= 60))
+                document.write(+grade + "  C-"); break;
+
+            case 3: if ((grade > 50) && (grade <= 55))
+                document.write(+grade + " D+"); break;
+
+            case 2: if ((grade > 45) && (grade <= 50))
+                document.write(+grade + " D-"); break;
+
+            case 1: if ((grade > 35) && (grade <= 45))
+                document.write(+grade + " E"); break;
+
+            case 0: if (grade >= 35)
+                document.write("Student Failed.."); break;
+
+        }
+    </script>
+</body>
+
+</html>
