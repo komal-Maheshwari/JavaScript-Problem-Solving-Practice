@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Question 7A
+        const array1 = [12, 45, 56, 4];
+        const map1 = array1.map(x => x);
+
+        console.log(map1);
+        const map2 = array1.map(x => x * 10);
+        console.log(map2);
+
+        // Question 7B
+        let usersData = [{
+            name: "Saeed",
+            lastName: "Ahmad",
+            school: "UoT",
+            profession: "Engineer",},
+        {name: "Ali",
+            lastName: "Khan",
+            school: "TUM",
+            profession: "researcher",}];
+        const xyz = usersData.map(data => {
+            return data
+        });
+
+        console.log(xyz)
+    </script>
+</body>
+
+</html>
